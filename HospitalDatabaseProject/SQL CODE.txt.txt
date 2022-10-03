@@ -1,0 +1,40 @@
+
+###This is the SQL CODE FOR CREATING TABLES WHILE FORMULATING THE Relational Model (Schema) Diagram.
+using dbdiagram.io
+
+Table patient {
+id int [pk]
+name text
+occupation text
+age int
+gender text
+disease text
+address_location text
+}
+
+Table doctor {
+id int [pk]
+doctor_name text
+doctor_age int
+doctor_gender text
+}
+
+Table admission_charge {
+id int [pk]
+ward_number int
+date_of_admission text
+date_of_discharge text
+room_type text
+}
+
+Table pharmacy {
+id int [pk]
+medicine_name text
+price int
+}
+Table treatment {
+patient_id int [ref:> patient.id]
+pharmacy_id int [ref:> pharmacy.id]
+doctor_id int [ref:> doctor.id]
+admission_id int [ref:> admission_charge.id]
+}
