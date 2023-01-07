@@ -28,7 +28,7 @@ address=input("Enter your address here:");address=address.upper()
 doctor_id=patient_type.doctor_ids()
 
 patient_id=hospitaldata.patient()
-print("Enter 1 if you are an in_patient or 2 if you are an out_patient:")
+print("Enter 1 if you are an in_patient or 2 if you are an out_patient: ")
 patient_type1=int(input("Enter your entry:"))
 while patient_type1>2 or patient_type1<1:
     patient_type1=int(input("Enter your entry:"))
