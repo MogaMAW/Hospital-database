@@ -1,4 +1,4 @@
-#THIS IS THE RUNNING FILE FOR THE PATIENTS MODULE AND PROJECT
+#THIS IS THE RUNNING FILE FOR THE PATIENTS MODULE AND PROJECT.
 import mysql.connector
 import hospitaldata
 import hospitaldata
