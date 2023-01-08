@@ -1,4 +1,5 @@
 import random
+
 def room(choice):
     if choice ==1:
         room=random.randint(2000,5000)
