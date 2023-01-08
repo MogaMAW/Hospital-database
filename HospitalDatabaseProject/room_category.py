@@ -4,6 +4,7 @@ def room_category():
 
     choice=int(input("Enter your room category choice from 1 to 3:"))
     while choice>3 or choice<1:
+        
         choice=int(input("Enter your room category choice from 1 to 3:"))
     
     return choice
