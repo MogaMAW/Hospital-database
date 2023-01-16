@@ -9,6 +9,7 @@ def going_date(NumberOfday):
     goingday = gDate + timedelta(days = NumberOfday)
     return goingday
     
+    
 def entry_date():
     entryDate = datetime.date.today()
     return entryDate
