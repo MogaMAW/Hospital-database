@@ -5,7 +5,7 @@ def going_date(NumberOfday):
     # format given date.
     gDate = datetime.date.today()
     
-    # going date.
+    ##going date.
     goingday = gDate + timedelta(days = NumberOfday)
     return goingday
     
