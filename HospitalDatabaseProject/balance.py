@@ -7,6 +7,7 @@ def balance(payment,payment_made):
     elif payment<payment_made:
         balance=payment_made-payment
         print("You have a balance of :{:,}".format(balance) )
+        
     else:
         print("You have zero balance.")
     return balance
