@@ -1,5 +1,5 @@
 
-###This is the SQL CODE FOR CREATING TABLES WHILE FORMULATING THE Relational Model (Schema) Diagram.
+##This is the SQL CODE FOR CREATING TABLES WHILE FORMULATING THE Relational Model (Schema) Diagram.
 using dbdiagram.io
 
 Table patient {
