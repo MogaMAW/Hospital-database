@@ -1,4 +1,5 @@
 def balance(payment,payment_made):
+    
     if payment>payment_made:
         balance=payment-payment_made
         print("We demand you :{:,}".format(balance) )
