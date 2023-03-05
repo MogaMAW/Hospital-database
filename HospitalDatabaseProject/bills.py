@@ -1,4 +1,5 @@
 def amount(category,lab_no,days):
+    
     if category==1:
         if lab_no==1:
             amount=(days*50000)+20000
