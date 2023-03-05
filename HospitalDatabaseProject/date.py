@@ -2,7 +2,7 @@ import datetime
 from datetime import timedelta 
 def going_date(NumberOfday):
     
-    #format given date.
+    # format given date.
     gDate = datetime.date.today()
     
     # going date.
